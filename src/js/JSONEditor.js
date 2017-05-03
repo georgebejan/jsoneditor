@@ -81,7 +81,7 @@ function JSONEditor (container, options, json) {
       var VALID_OPTIONS = [
         'ajv', 'schema', 'schemaRefs','templates',
         'ace', 'theme','autocomplete',
-        'onChange', 'onEditable', 'onError', 'onModeChange',
+        'onChange', 'onEditable', 'onError', 'onModeChange', 'onInvalidContent',
         'escapeUnicode', 'history', 'search', 'mode', 'modes', 'name', 'indentation', 'sortObjectKeys'
       ];
 
